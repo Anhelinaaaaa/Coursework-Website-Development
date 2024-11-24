@@ -1,0 +1,181 @@
+/* Stylesheet for Homepage */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Baskerville;
+}
+
+/* Nav bar section */
+
+#logo {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+.nav-link {
+    font-family: Baskerville;
+    margin-left: 200px;
+ font-size: 30px;
+}
+.nav-link:hover{ 
+    background: red;
+    border-radius: 10px;
+}
+/* Nav bar section ends */
+
+
+
+
+
+/* Home page */
+#Home {  
+    background-color: rgb(60, 57, 57);
+    padding-top: 10px;
+    padding-bottom: 350px;
+        background-image:  url("Background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+   }
+
+#Home .content {
+    text-align: center;
+    margin-top: 15%;
+
+    color: rgba(251, 24, 24, 0.762);
+}
+.content h1{ font-size: 100px;
+    font-family: Baskerville;
+ 
+}
+.content p{ font-size: 25px;
+    color: rgb(147, 16, 16);
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 5s steps(100),
+    cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50%{border-color: transparent;}
+    
+
+}
+@keyframes typing {
+    from { width: 0}
+}
+
+
+#container {
+    background-color: rgba(0, 0, 0, 0.623);
+}
+/* Home page ends */
+
+
+/* Main page */
+.main{
+    background-color: #212529 ;
+    color: #9FA1A2;
+    font-family: Baskerville;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ img{
+float: right;
+border: 3px solid #9FA1A2;
+border-radius: 10px;
+margin-right: 10px;
+ }
+ video{
+    float: left;
+border: 3px solid #9FA1A2;
+border-radius: 10px;
+margin-right: 10px;
+ }
+ .wrapper{
+    margin: 150px auto;
+    width: 70%;
+    float: left;
+ }
+ .text-box {
+    font-size: 30px;
+ }
+ .text-box h2{ 
+    font-size: 50px;
+ }
+/* Main page ends */
+
+
+
+
+/* Footer */
+footer{
+background-color: black;
+color: rgb(147, 16, 16);
+padding: 3em;
+margin-top: auto;
+}
+.footernav{ 
+    margin: 10px 0;
+
+}
+.footernav ul{
+    font-family: Baskerville;
+    display: flex;
+    justify-content: center;
+    color: rgb(147, 16, 16);
+}
+.footernav ul li a{ 
+    color:rgb(147, 16, 16);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+opacity: 1;
+}
+ 
+.footerbottom{
+    color: #212529;
+ padding: 20px;
+ text-align: center;
+ }
+/* Footer ends */
+
+/* Stylesheet for Homepage ends */
+
+
+
+/* Stylesheet for Attacks-on-civilians page  */
+
+header {
+    text-align: center;
+    background-color: black;
+    Color:rgb(147, 16, 16);
+    font-family: Baskerville;
+    padding-bottom: 25px;
+}
+
+header h1{
+    font-size: 90px;
+}
+
+.list ul li a{
+    color:rgb(147, 16, 16);
+}
+
+/* Stylesheet for Attacks-on-civilians page ends  */
